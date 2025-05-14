@@ -1,0 +1,32 @@
+{
+  "timeZone": "America/Chicago",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.locale",
+    "https://www.googleapis.com/auth/gmail.send",
+    "https://www.googleapis.com/auth/gmail.compose",
+    "https://www.googleapis.com/auth/gmail.addons.current.action.compose"
+  ],
+  "runtimeVersion": "DEPRECATED_ES5",
+  "addOns": {
+    "common": {
+      "name": " Smart Email Reply",
+      "logoUrl": "https://img.icons8.com/?size=100&id=eoxMN35Z6JKg&format=png&color=000000",
+      "useLocaleFromApp": true
+    },
+    "gmail": {
+      "contextualTriggers": [
+        {
+          "unconditional": {},
+          "onTriggerFunction": "generateReply"
+        }
+      ],
+      "primaryColor": "#4F75FF",
+      "secondaryColor": "#FFD97D"
+    }
+  }
+}

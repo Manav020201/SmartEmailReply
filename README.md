@@ -1,12 +1,23 @@
 # Smart Email Reply
 
 Installation.
-(1) Open the link to the project Script. 
-    Link - https://script.google.com/d/1Pb3U6XX8dxx6g2DTWCfGeyiSEzwz5EwEKGb2jCwzKcDSAQK0w7VqKfix/edit?usp=sharing
-(2) Github repo - https://github.com/Manav020201/SmartEmailReply
-(3) Under Project →Properties, set GEMINI_KEY.
-(4) Click on the Deploy Button on top right , then click Test
-Deployments
-(5) Click Install Add-on.
-(6) Head to your gmail account and grant scopes to start using
-the plugin
+🔧 Installation Guide
+Open the Project Script
+Click here to open the Google Apps Script - https://script.google.com/d/1Pb3U6XX8dxx6g2DTWCfGeyiSEzwz5EwEKGb2jCwzKcDSAQK0w7VqKfix/edit?usp=sharing
+
+Set Environment Variable
+Go to Project → Properties and add your GEMINI_KEY under the Script Properties tab.
+
+Deploy the Add-on
+
+Click the Deploy button (top-right).
+
+Select Test deployments.
+
+Install the Add-on
+Click Install Add-on from the test deployment window.
+
+Authorize in Gmail
+Open your Gmail account, grant the required permissions, and you're ready to use the plugin.
+
+
